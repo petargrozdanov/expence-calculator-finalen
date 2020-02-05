@@ -1,0 +1,136 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:  #E5EDF5;
+    margin: 0px
+  }
+  
+  
+  
+  table {
+    width: 90%;
+    margin-left: 40px;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+  
+  th{
+  Font-size: 16px;
+  Color: #404040;
+  Padding-bottom: 20px;
+  Border-bottom: 1px solid;
+  Border-color: #707070;
+
+  
+  }
+   td {
+    padding: 1em;
+    background: #fff;
+    border-bottom: 2px solid #E5EDF5; 
+  }
+  
+  
+  
+  body {
+    margin: 2em;
+  }
+  
+ 
+  #filter{
+      height: 30px;
+      padding-left: 40px;
+      color: #8d8d8d;
+  }
+  h3{
+    margin-top: 40px;
+    margin-left:40px;
+  }
+ 
+
+  .monthly-btn4{
+    Background: #1DD1A1;
+    Color: #fff;
+    Font-size: 15px;
+    Font-weight: bold;
+    height: 50px;
+    width:100px;
+    Box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
+    text-transform:uppercase;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom:30px;
+  }
+  .monthly-btn4:hover{
+    background-color: #d2d6d0;
+  }
+  .yearly-btn4{
+    Background: #C9E5DD;
+    Color: #fff;
+    Font-size: 15px;
+    Font-weight: bold;
+    height: 50px;
+    width:100px;
+    Box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
+    text-transform:uppercase;
+    border-radius: 5px;
+    margin-top: 30px;
+      margin-left: 40px;
+    margin-bottom:30px;
+  }
+  .yearly-btn4:hover{
+    background-color: #d2d6d0;
+  }
+  .expense4 {
+    /* display: flex; */
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
+  #box-container {
+    color: #575757;
+    margin-left: 25px;
+    display: initial;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#box-container label {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#month-box {
+    width: 170px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+#cost {
+    width: 80px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.total-spent4{
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    font-size: 15px;
+    background-color: #68718b;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
+    color: white;
+    height: 70px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;  
+}
+.total-spent4 p{
+    display: block;
+    color: white;
+    text-align: right;
+    margin-right: 80px;
+    padding: 0;
+}

@@ -1,0 +1,96 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color:  #E5EDF5;
+    margin: 0px
+  }
+  
+  .welcome{
+      text-align: center;
+      font-size: 100px;
+      margin-left:40px;
+       
+      background:transparent;
+      border: 1.5px solid #1DD1A1;
+      color:   #1DD1A1
+  }
+  .expenseCalculator{
+    text-align: center;
+    font-size: 60px;
+    /* margin-left:40px;
+   */
+    /* margin-top: 250px; */
+    background:transparent;
+    color:    #1DD1A1
+  }
+  .paragraph{
+    display: flex;
+    width: 100%;
+  
+    align-items: center;
+   
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* margin-left: 50px; */
+    justify-content: space-evenly;
+    font-size: 25px;
+    color:#5cd6d6 ;
+}
+  
+  /* .paragraph1{
+      display: flex;
+  }
+  .paragraph2{
+    display: flex;
+} */
+
+.buttons {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    
+  }
+  
+  button3:hover{
+      background-color:#d2d6d0;
+  }
+  .main-buttons{
+    background-color: white;
+    height: 35px;
+    min-width: 20px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left:30px;
+  }
+  #products-btn{
+    background:transparent;
+      border: 1.5px solid #1DD1A1;
+      color: #1DD1A1;
+      margin-right: 10px;
+  }
+  #products-btn:hover{
+      background-color:#dadfe8;
+  }
+  #expenses-btn{
+    background: transparent;
+    border: 1.5px solid #1DD1A1;
+    color: #1DD1A1;
+  }
+  #expenses-btn:hover{
+    background-color: #dadfe8;
+}
+img {
+    max-width: 40%;
+    height: auto;
+    margin-left: 550px;
+    border-radius: 50%;
+  }
+  .btn{
+   color:  #1DD1A1
+  }

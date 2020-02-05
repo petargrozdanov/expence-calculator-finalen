@@ -1,0 +1,79 @@
+
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+  
+  }
+  .nav3 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+  button3 {
+    cursor: pointer;
+    
+  }
+  
+  button3:hover{
+      background-color:#d2d6d0;
+  }
+  .main-buttons3{
+    background-color: white;
+    height: 35px;
+    min-width: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left:30px;
+  }
+  .logOutButton3{
+    background-color: white;
+    height: 30px;
+    min-width: 20px;
+    text-transform: uppercase;
+    /* padding: 0px 10px; */
+    border-radius: 5px;
+    font-weight: 700;
+    background: transparent;
+    border: 1.5px solid #576574;
+    color: #576574;
+    padding: 10px 10px 0px 10px;
+    /* margin-left: 1000px; */
+  }
+
+  #products-btn3{
+    background:transparent;
+      border: 1.5px solid #1DD1A1;
+      color: #1DD1A1;
+      margin-right: 10px;
+  }
+  #products-btn3:hover{
+      background-color:#dadfe8;
+  }
+  #expenses-btn3{
+    background: transparent;
+      border: 1.5px solid #576574;
+      color: #576574;
+  }
+  #expenses-btn3:hover{
+    background-color: #dadfe8;
+}
+.picture3{
+   
+    display: flex; 
+    justify-content: flex-end;
+    margin:20px
+    
+    
+  
+  }
+  #profile3{
+    margin-left: 1350px;
+  }

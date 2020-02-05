@@ -1,0 +1,1 @@
+web: node services/auth.js & node services/items.js 
